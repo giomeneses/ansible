@@ -1,0 +1,8 @@
+---
+  - name: Install Vim
+    hosts: servers
+    tasks:
+      - name: Ensure Vim is installed
+        apt:
+          name: vim
+          state: latest
