@@ -1,6 +1,14 @@
+
+[all_hosts]
+serenity    ansible_ssh_host=192.168.1.94
+pella       ansible_ssh_host=192.168.1.138
+voyager     ansible_ssh_host=192.168.1.12
+rocinante   ansible_connection=local
+
 [servers]
-192.168.1.12
-192.168.1.138
+voyager
+pella
 
 [rasbpi]
-192.168.1.94
+serenity
+
