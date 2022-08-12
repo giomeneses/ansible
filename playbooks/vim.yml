@@ -1,8 +1,8 @@
 ---
-  - name: Install Vim
+  - name: Install NeoVim
     hosts: servers
     tasks:
       - name: Ensure Vim is installed
         apt:
-          name: vim
+          name: nvim
           state: latest

@@ -1,9 +1,9 @@
 ---
   - name: Update all the things
-    hosts: 
+    hosts:
         - servers
         - rasbpi
-    become: yes
+    become: True
     tasks:
       - name: apt
         apt:
